@@ -18,6 +18,7 @@
 		AA4147231FE8A9A600179C13 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4147221FE8A9A600179C13 /* Student.m */; };
 		AA4147261FE8AA1700179C13 /* AspectProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = AA4147251FE8AA1700179C13 /* AspectProxy.m */; };
 		AA41472B1FE8B2C000179C13 /* AuditingInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = AA41472A1FE8B2C000179C13 /* AuditingInvoker.m */; };
+		AA41472E1FE8B91900179C13 /* NSObject+Sark.m in Sources */ = {isa = PBXBuildFile; fileRef = AA41472D1FE8B91900179C13 /* NSObject+Sark.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		AA4147281FE8AADB00179C13 /* Invoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
 		AA4147291FE8B2C000179C13 /* AuditingInvoker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuditingInvoker.h; sourceTree = "<group>"; };
 		AA41472A1FE8B2C000179C13 /* AuditingInvoker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuditingInvoker.m; sourceTree = "<group>"; };
+		AA41472C1FE8B91900179C13 /* NSObject+Sark.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Sark.h"; sourceTree = "<group>"; };
+		AA41472D1FE8B91900179C13 /* NSObject+Sark.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Sark.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 		AA4146E31FE8A99100179C13 = {
 			isa = PBXGroup;
 			children = (
+				AA41472C1FE8B91900179C13 /* NSObject+Sark.h */,
+				AA41472D1FE8B91900179C13 /* NSObject+Sark.m */,
 				AA4147281FE8AADB00179C13 /* Invoker.h */,
 				AA4147211FE8A9A600179C13 /* Student.h */,
 				AA4147221FE8A9A600179C13 /* Student.m */,
@@ -287,6 +292,7 @@
 				AA4146FF1FE8A99100179C13 /* main.m in Sources */,
 				AA4147261FE8AA1700179C13 /* AspectProxy.m in Sources */,
 				AA4146F11FE8A99100179C13 /* AppDelegate.m in Sources */,
+				AA41472E1FE8B91900179C13 /* NSObject+Sark.m in Sources */,
 				AA4147231FE8A9A600179C13 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

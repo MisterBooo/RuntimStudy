@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <objc/runtime.h>
+#import "NSObject+Sark.h"
 @interface ViewController ()
 
 @end
@@ -19,7 +19,10 @@
     // Do any additional setup after loading the view, typically from a nib.
     
 }
-
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [NSObject foo];
+    [[NSObject new] foo];
+}
 
 
 @end
